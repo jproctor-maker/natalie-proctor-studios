@@ -199,6 +199,25 @@
     color:#4a3c2c;
     margin:0 auto;
   }
+  .intro .lede-sub{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-style:italic;
+    font-size:clamp(1.3rem, 2.4vw, 1.6rem);
+    color:var(--ink);
+    margin:0 auto 22px;
+  }
+  .intro .hero-rule{
+    max-width:420px;
+    height:1px;
+    border:0;
+    background:var(--line);
+    margin:0 auto 22px;
+  }
+  .hero-headline em{
+    font-style:italic;
+    color:var(--rust);
+  }
   .hero-grid{
     display:grid;
     grid-template-columns:1.1fr 0.9fr;
@@ -496,9 +515,11 @@
 <section class="intro">
   <div class="wrap">
     <div class="reveal intro-copy">
-      <span class="eyebrow">handmade &amp; a little bit stitched</span>
-      <h1 class="hero-headline">Found paper, thread, and paint — pieced into small worlds.</h1>
-      <p class="lede">Original mixed-media work built from layered paper, fabric, and found materials, plus a small collection of prints for anyone who wants a piece of it at home.</p>
+      <span class="eyebrow">Fort Worth, TX · Mixed media</span>
+      <h1 class="hero-headline">Found paper, thread, and <em>paint.</em></h1>
+      <p class="lede-sub">Pieced into small worlds, one layer at a time.</p>
+      <hr class="hero-rule">
+      <p class="lede">Every piece is an original — layered paper, fabric, and found materials, stitched and glued by hand. Prints available for a few of them.</p>
     </div>
   </div>
 </section>
